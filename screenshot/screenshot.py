@@ -10,3 +10,4 @@ import pyautogui
 
 img=pyautogui.screenshot()
 img.save(r"G:\python learning\Mini Projects\screenshot\screen1.png")
+print("Screenshot is taken and saved !")

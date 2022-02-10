@@ -7,6 +7,7 @@
 
 '''
 import random
+import sys
 print("****Random password generator****\n")
 pslen=int(input("Enter password length: "))
 
