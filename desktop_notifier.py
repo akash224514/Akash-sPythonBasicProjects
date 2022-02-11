@@ -1,10 +1,16 @@
 
 #Importing the necessary module
 from plyer import notification
+import time
 
 #specifying parameters
 title='Hello Akash!'
 
-message='This is your first desktop notification..'
+message='You did enough work..Take a brak and breathe buddy!'
 
-notification.notify(title=title,message=message,app_icon=None,timeout=20,toast=False)
+#Always executes loop while its true
+while True:
+
+    notification.notify(title=title,message=message,app_icon=None,timeout=10,toast=False)
+
+    time.sleep(60*60) 
