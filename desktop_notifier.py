@@ -6,11 +6,11 @@ import time
 #specifying parameters
 title='Hello Akash!'
 
-message='You did enough work..Take a brak and breathe buddy!'
+message='You did enough work..Take a break and breath buddy!'
 
 #Always executes loop while its true
 while True:
 
     notification.notify(title=title,message=message,app_icon=None,timeout=10,toast=False)
 
-    time.sleep(60*60) 
+    time.sleep(30*30) 
