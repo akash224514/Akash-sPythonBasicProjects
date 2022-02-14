@@ -13,4 +13,4 @@ while True:
 
     notification.notify(title=title,message=message,app_icon=None,timeout=10,toast=False)
 
-    time.sleep(30*30) 
+    time.sleep(60*60) 
