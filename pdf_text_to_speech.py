@@ -26,7 +26,7 @@ print(f"\nNumber of pages are:{a}")     #printing number of pages
 print(text)                             #Printing extracted data from pdf file
 
 
-#Reading the text
+#Using pyttx module
 r=pyttsx3.init()                        #Initializing the pyttx3 module object
 voices=r.getProperty('voices')          #Setting a voice object
 r.setProperty('voice',voices[0].id)     #Deciding for male or female voice
